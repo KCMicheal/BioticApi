@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioticApi", "BioticApi\BioticApi.csproj", "{DFBCEC05-6F64-4D83-AB74-D6C313898E74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFBCEC05-6F64-4D83-AB74-D6C313898E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBCEC05-6F64-4D83-AB74-D6C313898E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBCEC05-6F64-4D83-AB74-D6C313898E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBCEC05-6F64-4D83-AB74-D6C313898E74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EB9351B-5F44-4EF8-85C9-816A80252653}
+	EndGlobalSection
+EndGlobal
