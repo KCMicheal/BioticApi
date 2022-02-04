@@ -12,6 +12,7 @@ namespace BioticApi.Models
         [Column(TypeName = "nvarchar(16)")]
         public string Mobile { get; set; }
         [Column(TypeName = "nvarchar(100)")]
+        [EmailAddress]
         public string Email { get; set; }
         public int Age { get; set; }
         [Column(TypeName = "nvarchar(3)")]
