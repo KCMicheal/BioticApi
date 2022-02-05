@@ -1,3 +1,4 @@
+import api from "./Api"
 
 export const ACTION_TYPES = {
     CREATE : 'CREATE ',
@@ -7,9 +8,16 @@ export const ACTION_TYPES = {
 }
 
 export const fetchAll = () => dispatch => {
-    //get api req
-    dispatch({
-        type: ACTION_TYPES.FETCH_ALL,
-        payload: []
-    })
+    api.bioticUser().fetchAll()
+        .then(
+            response => {
+                    dispatch({
+                    type: ACTION_TYPES.FETCH_ALL,
+                    payload: response.data
+                })
+            }
+        )
+        .catch(err => console.log(err));
+
+    
 }
